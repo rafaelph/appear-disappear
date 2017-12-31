@@ -7,11 +7,10 @@
 
     <ImageView
         android:id="@+id/first_fragment_image"
-        android:layout_gravity="center"
-        android:visibility="invisible"
-        android:src="@drawable/hershey_kiss"
-        android:background="@android:color/transparent"
         android:layout_width="173dp"
-        android:layout_height="173dp" />
+        android:layout_height="173dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:src="@drawable/hershey_kiss" />
 
 </FrameLayout>

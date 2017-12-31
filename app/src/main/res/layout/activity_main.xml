@@ -3,14 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/black"
     tools:context="com.rafelds.appeardisappear.MainActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
-        android:scrollbars="none"
-        android:overScrollMode="never"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </android.support.v4.view.ViewPager>
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:visibility="gone" />
 
 </FrameLayout>
