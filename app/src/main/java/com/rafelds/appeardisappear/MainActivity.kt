@@ -11,7 +11,7 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.fragment_first.*
+import kotlinx.android.synthetic.main.fragment_image.*
 
 
 class MainActivity : AppCompatActivity(), SensorEventListener {
