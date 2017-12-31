@@ -5,7 +5,6 @@ import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentPagerAdapter
 import com.rafelds.appeardisappear.fragments.FirstFragment
 import com.rafelds.appeardisappear.fragments.SecondFragment
-import com.rafelds.appeardisappear.fragments.ThirdFragment
 
 class ImageViewPagerAdapter(fragmentManager: FragmentManager)
     : FragmentPagerAdapter(fragmentManager) {
@@ -14,10 +13,9 @@ class ImageViewPagerAdapter(fragmentManager: FragmentManager)
         return when (position) {
             0 -> FirstFragment()
             1 -> SecondFragment()
-            2 -> ThirdFragment()
             else -> null
         }
     }
 
-    override fun getCount() = 3
+    override fun getCount() = 2
 }

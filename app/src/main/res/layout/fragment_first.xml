@@ -2,11 +2,16 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/first_fragment"
     android:layout_width="match_parent"
-    android:background="@android:color/black"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:id="@+id/first_fragment_image"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:src="@drawable/hershey_kiss"
+        android:background="@android:color/transparent"
+        android:layout_width="173dp"
+        android:layout_height="173dp" />
 
 </FrameLayout>

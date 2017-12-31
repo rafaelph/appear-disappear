@@ -14,4 +14,5 @@ class SecondFragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
         return inflater?.inflate(R.layout.fragment_second, container, false)
     }
+
 }
