@@ -42,11 +42,12 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         proximitySensor = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY)
 
         view_pager.adapter = ImageViewPagerAdapter(supportFragmentManager)
+        view_pager.currentItem = 1
         view_pager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
             override fun onPageScrollStateChanged(x: Int) = Unit
             override fun onPageScrolled(x: Int, y: Float, z: Int) = Unit
             override fun onPageSelected(position: Int) {
-                if (position == 1) {
+                if (position == 0 || position == 2) {
                     first_fragment_image.visibility = GONE
                 }
             }

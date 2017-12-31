@@ -11,11 +11,12 @@ class ImageViewPagerAdapter(fragmentManager: FragmentManager)
 
     override fun getItem(position: Int): Fragment? {
         return when (position) {
-            0 -> ImageFragment()
-            1 -> EmptyFragment()
+            0 -> EmptyFragment()
+            1 -> ImageFragment()
+            2 -> EmptyFragment()
             else -> null
         }
     }
 
-    override fun getCount() = 2
+    override fun getCount() = 3
 }
